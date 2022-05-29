@@ -8,7 +8,7 @@ console.log(devMode)
 module.exports = {
     entry: ['@babel/polyfill','./src/app/index.js'],
     output: {
-        path: __dirname + '/build',
+        path: __dirname + '/docs',
         filename: 'bundle.js'
     },
     mode: 'development',
